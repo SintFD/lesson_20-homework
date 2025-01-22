@@ -1,0 +1,10 @@
+// @mixin borders($size) {
+//   border-bottom: $size black solid;
+//   border-top: $size black solid;
+// }
+
+@mixin universalValues($size, $weight, $line-height) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+}

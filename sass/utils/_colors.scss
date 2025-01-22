@@ -1,0 +1,19 @@
+$colors: (
+  "primary": #f6b100,
+  "secondary": #181a20,
+  "quick-silver": #9f9f9f,
+  "lotion": #fcfcfc,
+);
+
+// $colors-dark: (
+//   "primary": rgb(26, 53, 1),
+//   "accent": rgb(61, 4, 58),
+// );
+
+// @function getColorDark($key) {
+//   @return map-get($colors-dark, $key);
+// }
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
