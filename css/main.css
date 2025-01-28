@@ -95,6 +95,19 @@ body {
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
 }
+.dish:nth-child(n+3) {
+  display: none;
+}
+@media (min-width: 834px) {
+  .dish:nth-child(n+5) {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
+  .dish:nth-child(n) {
+    display: block;
+  }
+}
 
 .recipes__subtitle {
   color: #f6b100;
